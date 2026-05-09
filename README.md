@@ -31,3 +31,11 @@ Projeto local para análise determinística de decks de **Magic: The Gathering**
 npm install
 npm test
 ```
+
+## Operação autônoma (segura)
+```bash
+npm run autonomy:loop
+```
+Esse comando roda testes + montagem de dataset e grava status em `data/evals/autonomy-status.json`.
+
+Veja `AUTONOMY.md` para o fluxo completo de melhoria contínua com gates (RAG separado de fine-tuning, avaliação antes/depois e promoção controlada).

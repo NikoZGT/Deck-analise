@@ -10,7 +10,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "autonomy:loop": "node scripts/autonomy-loop.mjs"
   },
   "dependencies": {
     "better-sqlite3": "^11.8.1",
